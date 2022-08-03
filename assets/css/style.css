@@ -13,8 +13,20 @@ body {
     
     
 header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
     background-color: lightgrey; 
     border: 10px solid black; 
+    color: black; 
+    font-size: 16px;
+} 
+nav a { 
+text-decoration: none; 
+padding: 10px; 
+color: black; 
+
+
 }
 
 
