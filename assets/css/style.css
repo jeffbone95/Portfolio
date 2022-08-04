@@ -25,35 +25,43 @@ nav a {
 text-decoration: none; 
 padding: 10px; 
 color: black; 
+}  
+div { 
+    width: 200px; 
+    height: 200px; 
+    border: 2px solid black; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px; 
+    }
 
+
+
+.container { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+background-color: lightgrey; 
+box-sizing: border-box 5px;
+height: 600px;  
+border: 10px solid black; 
 
 }
 
-
-.flexbox-container { 
-    display: flex;
-justify-content: space-around;
-}
-.flexbox-item { 
-width: 200px; 
-margin: 10px 
-border: 3px solid #333;  
-background-color #dfdfdf 
-
-
-.flexbox-item-1 { 
-    min-height: 100px;
-}
-.flex-box-item-2 { 
-    min-height: 100px;
-} 
-.flexbox-item-3 { 
-    min-height: 200px; 
+.container2 { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightgrey; 
+    border: 10px solid black; 
+    height: 600px; 
+    box-sizing: border-box 5px;
 }
 
-box-sizing: border-box; 
-margin: 0; 
-padding: 0;
-background-color: lightgrey;
- 
+
+
+
+
+
+
 
