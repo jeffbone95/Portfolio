@@ -41,7 +41,7 @@ div {
     display: flex; 
     flex-direction: row; 
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center; 
     text-align: center; 
     min-height: 100vh; 
@@ -180,5 +180,26 @@ align-items: center;
 border: 10px solid black; 
 flex: 1 0 200px;
 
-}
+} 
+.column-4 { 
+    float: left; 
+width: 45%;
+padding:40px; 
+padding-left: 70px; 
+padding-right: 70px; 
+height: 475px; 
+margin: 30px; 
+margin-right: 30px;
+margin-bottom: 70px; 
+line-height: 2;
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-between; 
+background-color: lightgrey; 
+font-size: 20px; 
+align-items: center;
+border: 10px solid black; 
+flex: 1 0 200px;
+
+} 
 
